@@ -134,7 +134,7 @@ resource "aws_instance" "hashicat" {
   tags = {
     Name = [
       "Department", 
-      "Billable"
+      "Billable",
     ]
   }
 }
