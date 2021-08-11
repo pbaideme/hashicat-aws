@@ -135,6 +135,7 @@ resource "aws_instance" "hashicat" {
     Name = [
       "Department", 
       "Billable"
+    ]
   }
 }
 
